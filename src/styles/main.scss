@@ -20,14 +20,14 @@ $accent-colors: (
 
 @font-face {
     font-family: "CormorantSC";
-    src: url(/fonts/CormorantSC/CormorantSC-Regular.ttf);
+    src: url(../../media/fonts/CormorantSC/CormorantSC-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/fonts/Inter/Inter_18pt-Light.ttf);
+    src: url(../../media/fonts/Inter/Inter_18pt-Light.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -52,7 +52,7 @@ body.darkTheme {
     }
 
     .btn-darkTheme::before {
-        background-image: url(/images/ligth-theme-icon.svg);
+        background-image: url(../../media/images/ligth-theme-icon.svg);
     }
 
     .search {
@@ -246,7 +246,7 @@ main {
     &::before {
         content: "";
         display: block;
-        background: url(/images/dark-theme-icon.svg) center center no-repeat;
+        background: url(../../media/images/dark-theme-icon.svg) center center no-repeat;
         width: 100%;
         height: 100%;
     }
@@ -634,7 +634,7 @@ main {
 
                 &::before {
                     content: "";
-                    background: url(/images/Vector1.svg) center center no-repeat;
+                    background: url(../../media/images/Vector1.svg) center center no-repeat;
                     width: 20px;
                     height: 20px;
                 }
@@ -657,7 +657,7 @@ main {
                     border-radius: 4px;
                     outline: none;
                     appearance: none;
-                    background: url(/images/Vector2.svg) right 20px top 50% no-repeat;
+                    background: url(../../media/images/Vector2.svg) right 20px top 50% no-repeat;
                     padding-left: 16px;
                     font: {
                         size: 14px;
@@ -772,5 +772,5 @@ main {
 }
 
 .filter-group.active .toggle-icon::before {
-    background-image: url(/images/Vector.svg) !important;
+    background-image: url(../../media/images/Vector.svg) !important;
 }

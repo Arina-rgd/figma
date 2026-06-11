@@ -1,4 +1,5 @@
-const API_URL = import.meta.env.VITE_API_URL || "/paintings.json";
+const API_URL =
+  import.meta.env.VITE_API_URL || `${import.meta.env.BASE_URL}paintings.json`;
 
 export async function fetchPaintings() {
   const response = await fetch(API_URL);
